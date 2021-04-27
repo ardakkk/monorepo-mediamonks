@@ -1,7 +1,17 @@
 {
-  "name": "root",
+  "name": "@mediamonks/root",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "compile": "yarn rollup -c",
+    "start": "yarn rollup -cw"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@azimutlabs/rollup": "*",
+    "lerna": "^4.0.0",
+    "rollup": "^2.45.2"
   }
 }
