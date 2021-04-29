@@ -1,0 +1,31 @@
+{
+  "name": "storybook",
+  "version": "0.0.0",
+  "description": "Showcase Storybook",
+  "main": "index.js",
+  "author": "Ardak Tileu",
+  "license": "MIT",
+  "scripts": {
+    "build": "build-storybook",
+    "start": "start-storybook -p 9009",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@storybook/addon-a11y": "^6.2.9",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-backgrounds": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/addon-viewport": "^6.2.9",
+    "@storybook/addons": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "babel-loader": "^8.2.2",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "webpack": "^5.36.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.2.9"
+  }
+}
