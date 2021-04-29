@@ -1,1 +1,1 @@
-console.log('brand-a package');
+export * from './components';
