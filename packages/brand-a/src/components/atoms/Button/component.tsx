@@ -1,14 +1,12 @@
-import React, { FC } from 'react';
-import { Props } from "./props";
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
+import type { FC } from 'react';
+import React from 'react';
 
-const ButtonBase: FC<Props> = ({ children, ...rest }: Props) => {
-  return (
-    <button {...rest}>
-      {children}
-    </button>
-  );
-};
+import type { Props } from './props';
+
+const ButtonBase: FC<Props> = ({ children, ...rest }: Props) => (
+  <button {...rest}>{children}</button>
+);
 
 export const Button = styled(ButtonBase)<Props>`
   background-color: #010103;
@@ -16,4 +14,4 @@ export const Button = styled(ButtonBase)<Props>`
   border: none;
   padding: 10px 20px;
   border-radius: 7px;
-`
+`;

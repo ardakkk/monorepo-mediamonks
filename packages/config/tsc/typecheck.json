@@ -1,0 +1,18 @@
+{
+  "extends": "./base",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "jsx": "react",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "incremental": false,
+    "noEmit": true,
+    "resolveJsonModule": true
+  }
+}
