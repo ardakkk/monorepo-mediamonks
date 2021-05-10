@@ -6,6 +6,7 @@
     "src",
     "public"
   ],
+  "license": "MIT",
   "dependencies": {
     "@mediamonks/brand-a": "^0.1.0",
     "@mediamonks/eslint-config-react": "^1.0.0",
@@ -55,5 +56,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "gitHead": "80ce81b415698044e7e3ac9c9c20c61c65cd226a"
 }
