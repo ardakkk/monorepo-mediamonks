@@ -1,7 +1,11 @@
 {
   "name": "my-cra-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "files": [
+    "src",
+    "public"
+  ],
   "dependencies": {
     "@mediamonks/eslint-config-react": "^1.0.0",
     "@mediamonks/react-scripts": "4.0.1-mm.3",
