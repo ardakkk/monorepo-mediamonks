@@ -2,6 +2,7 @@
   "name": "storybook",
   "version": "0.1.1",
   "description": "Showcase Storybook",
+  "private": false,
   "main": "index.js",
   "author": "Ardak Tileu",
   "license": "MIT",
