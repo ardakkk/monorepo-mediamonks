@@ -7,7 +7,9 @@
   ],
   "scripts": {
     "compile": "yarn rollup -c",
-    "start": "yarn rollup -cw"
+    "start": "yarn rollup -cw",
+    "test": "scripty",
+    "lint": "scripty"
   },
   "eslintConfig": {
     "extends": [
@@ -35,6 +37,13 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-jest": "^24.3.6",
     "lerna": "^4.0.0",
-    "rollup": "^2.45.2"
+    "rollup": "^2.45.2",
+    "scripty": "^2.0.0",
+    "@mediamonks/scripts": "^0.0.0"
+  },
+  "scripty": {
+    "modules": [
+      "@mediamonks/scripts/workspace"
+    ]
   }
 }

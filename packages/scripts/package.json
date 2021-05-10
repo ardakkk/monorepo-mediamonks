@@ -1,13 +1,15 @@
 {
-  "name": "@mediamonks/config",
+  "name": "@mediamonks/scripts",
   "version": "0.0.0",
-  "description": "Sharable development typescript configuration",
+  "private": false,
+  "description": "Sharable scripts",
   "author": "ardak <ardak.tileu@mediamonks.com>",
   "homepage": "https://github.com/ardakkk/monorepo-mediamonks#readme",
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "lib"
+    "packages",
+    "workspace"
   ],
   "repository": {
     "type": "git",
