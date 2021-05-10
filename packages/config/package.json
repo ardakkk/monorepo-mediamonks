@@ -1,6 +1,6 @@
 {
   "name": "@mediamonks/config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sharable development typescript configuration",
   "author": "ardak <ardak.tileu@mediamonks.com>",
   "homepage": "https://github.com/ardakkk/monorepo-mediamonks#readme",

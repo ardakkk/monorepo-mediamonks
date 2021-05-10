@@ -1,6 +1,6 @@
 {
   "name": "@mediamonks/brand-a",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Brand-a package",
   "author": "Ardak Tileu",
@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
-    "@mediamonks/scripts": "^0.1.0",
+    "@mediamonks/scripts": "^0.1.1",
     "@types/react": "^17.0.4",
     "babel-plugin-macros": "^3.0.1",
     "react": "^17.0.2",
