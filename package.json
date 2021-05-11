@@ -9,7 +9,8 @@
     "compile": "yarn rollup -c",
     "start": "yarn rollup -cw",
     "test": "scripty",
-    "lint": "scripty"
+    "lint": "scripty",
+    "pre-commit": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -27,7 +28,7 @@
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "@commitlint/config-lerna-scopes": "^12.1.1",
-    "@mediamonks/scripts": "^0.0.0",
+    "@mediamonks/scripts": "^1.1.0",
     "babel-eslint": "^10.1.0",
     "commitlint": "^12.1.1",
     "eslint": "^7.25.0",
@@ -53,12 +54,6 @@
       "@mediamonks/scripts/workspace"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "lint-staged": {
     "**/*/.{tsx, ts}": "eslint --no-ignore --cache --max-warnings 0"
   },
@@ -69,6 +64,6 @@
     ]
   },
   "engines": {
-    "node": ">= 10 <=14"
+    "node": ">=10 <=14"
   }
 }
