@@ -28,6 +28,5 @@
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.2.9"
-  },
-  "gitHead": "1980b12ed91db67d9d99a0ba866dc3df5121edf5"
+  }
 }
