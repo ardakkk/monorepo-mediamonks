@@ -1,5 +1,5 @@
 {
-  "name": "storybook",
+  "name": "@mediamonks/storybook",
   "version": "0.2.0",
   "description": "Showcase Storybook",
   "private": false,
