@@ -6,11 +6,13 @@
     "packages/*"
   ],
   "scripts": {
-    "compile": "yarn rollup -c",
-    "start": "yarn rollup -cw",
+    "watch": "scripty",
+    "compile": "scripty",
+    "start": "scripty",
     "test": "scripty",
     "lint": "scripty",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "clean": "scripty"
   },
   "eslintConfig": {
     "extends": [
