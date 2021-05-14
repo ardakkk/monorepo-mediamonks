@@ -1,0 +1,55 @@
+{
+  "name": "@mediamonks/brand-b",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Brand-b package",
+  "author": "Ardak Tileu",
+  "license": "MIT",
+  "sideEffects": false,
+  "module": "lib/index.es.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "watch": "scripty",
+    "test": "scripty",
+    "lint": "scripty",
+    "compile": "scripty",
+    "clean": "scripty"
+  },
+  "devDependencies": {
+    "@azimutlabs/rollup-config": "*",
+    "@azimutlabs/rollup-config-babel": "*",
+    "@azimutlabs/rollup-config-typescript": "*",
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@emotion/babel-plugin": "^11.3.0",
+    "@mediamonks/scripts": "^1.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "@types/react": "^17.0.4",
+    "babel-plugin-macros": "^3.0.1",
+    "rollup": "^2.45.2",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "react": "^17.0.2",
+    "bootstrap-4-grid": "^3.4.0",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.17",
+    "@mediamonks/common": "^0.0.0"
+  },
+  "scripty": {
+    "modules": [
+      "@mediamonks/scripts/packages"
+    ]
+  }
+}

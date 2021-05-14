@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "rootDir": "src",
+    "outDir": "lib",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@b-components/*": ["components/*"],
+      "@b-core/*": ["core/*"]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
