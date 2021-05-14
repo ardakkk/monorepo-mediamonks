@@ -4,7 +4,11 @@
     "baseUrl": "src",
     "rootDir": "src",
     "outDir": "lib",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "components/*": ["components/*"],
+      "core/*": ["core/*"]
+    }
   },
   "include": [
     "src"

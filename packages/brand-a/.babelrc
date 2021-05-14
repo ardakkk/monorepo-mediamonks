@@ -12,6 +12,15 @@
   ],
   "plugins": [
     "macros",
-    "@babel/transform-runtime"
+    "@babel/transform-runtime",
+    [
+      "module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "core": "./core",
+          "components": "./components"
+        }
+      }
+    ]
   ]
 }

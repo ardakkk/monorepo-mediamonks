@@ -1,13 +1,16 @@
-import React, { FC, VFC } from "react";
-import { Button } from "./component";
+import { colors } from 'core';
+import type { FC } from 'react';
+import React from 'react';
+
+import { Button } from './component';
 
 export default {
-  title: 'Brand A/Atoms/Button',
-  component: Button
-}
+  title: 'Brand A/atoms/Button',
+  component: Button,
+};
 
-export const Basic: VFC<{}> = () => (
-  <>
-    <Button>Click me</Button>
-  </>
-)
+export const Basic: FC = () => (
+  <Button color={colors.variants.Text.White} backgroundColor={colors.variants.Element.Black}>
+    Click me
+  </Button>
+);
