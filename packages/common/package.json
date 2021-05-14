@@ -1,6 +1,6 @@
 {
   "name": "@mediamonks/common",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "description": "Common package",
   "author": "Ardak Tileu",
@@ -28,7 +28,7 @@
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
     "@emotion/babel-plugin": "^11.3.0",
-    "@mediamonks/scripts": "^1.1.0",
+    "@mediamonks/scripts": "^1.2.0",
     "@types/react": "^17.0.4",
     "babel-plugin-macros": "^3.0.1",
     "rollup": "^2.45.2",
@@ -36,12 +36,12 @@
   },
   "peerDependencies": {
     "@emotion/core": "^11.0.0",
+    "@emotion/is-prop-valid": "^1.1.0",
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
-    "@emotion/is-prop-valid": "^1.1.0",
-    "react": "^17.0.2",
     "bootstrap-4-grid": "^3.4.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2"
   },
   "dependencies": {
     "@babel/runtime": "^7.13.17"

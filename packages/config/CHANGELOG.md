@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/config@0.1.2...@mediamonks/config@0.1.3) (2021-05-14)
+
+**Note:** Version bump only for package @mediamonks/config
+
+
+
+
+
 ## [0.1.2](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/config@0.1.1...@mediamonks/config@0.1.2) (2021-05-10)
 
 

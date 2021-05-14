@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/brand-a@0.1.1...@mediamonks/brand-a@1.1.0) (2021-05-14)
+
+
+### Features
+
+* **brand-a:** add components ([9f22c97](https://github.com/ardakkk/monorepo-mediamonks/commit/9f22c975ec9c433a933d74f7dc6d0b442dfbbf9d))
+
+
+
+# 1.0.0 (2021-05-10)
+
+
+
+
+
 ## [0.1.1](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/brand-a@0.1.0...@mediamonks/brand-a@0.1.1) (2021-05-10)
 
 **Note:** Version bump only for package @mediamonks/brand-a
