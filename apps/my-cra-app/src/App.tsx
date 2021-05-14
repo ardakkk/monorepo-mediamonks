@@ -1,9 +1,17 @@
+import { MainTemplate, Card } from "@mediamonks/brand-a";
+
+const cardItems = 10;
+
 export default function App() {
   return (
-    <div>
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-    </div>
+    <MainTemplate>
+      <div className="container">
+       <div className="d-flex flex-wrap">
+         {Array.from(Array(cardItems)).map((_, index) => (
+           <Card key={index}/>
+         ))}
+       </div>
+      </div>
+    </MainTemplate>
   );
 }

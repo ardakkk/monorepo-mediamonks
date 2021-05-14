@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import '@mediamonks/brand-a';
+import "bootstrap-4-grid";
+import "normalize.css";
 
 ReactDOM.render(
   <React.StrictMode>
