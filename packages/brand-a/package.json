@@ -51,5 +51,6 @@
     "modules": [
       "@mediamonks/scripts/packages"
     ]
-  }
+  },
+  "gitHead": "02892230d1c42c0746cfe9dc3fd0ad0f88fca092"
 }
