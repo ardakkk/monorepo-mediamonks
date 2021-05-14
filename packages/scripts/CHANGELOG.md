@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/scripts@1.2.0...@mediamonks/scripts@1.2.1) (2021-05-14)
+
+**Note:** Version bump only for package @mediamonks/scripts
+
+
+
+
+
 # [1.2.0](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/scripts@0.1.1...@mediamonks/scripts@1.2.0) (2021-05-14)
 
 
