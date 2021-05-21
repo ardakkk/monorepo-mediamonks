@@ -31,6 +31,7 @@
     "@commitlint/config-conventional": "^12.1.1",
     "@commitlint/config-lerna-scopes": "^12.1.1",
     "@mediamonks/scripts": "^1.1.0",
+    "@types/react-test-renderer": "^17.0.1",
     "babel-eslint": "^10.1.0",
     "commitlint": "^12.1.1",
     "eslint": "^7.25.0",
@@ -49,6 +50,7 @@
     "lerna": "^4.0.0",
     "lerna-changelog": "^1.0.1",
     "lint-staged": "^11.0.0",
+    "react-test-renderer": "^17.0.2",
     "rollup": "^2.45.2",
     "scripty": "^2.0.0"
   },
