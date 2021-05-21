@@ -23,8 +23,8 @@ module.exports = {
 
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@b/core': path.resolve(__dirname, '../../brand-b/src/core'),
-      '@b/components': path.join(__dirname, '../../brand-b/src/components')
+      'core': path.resolve(__dirname, '../../brand-b/src/core'),
+      'components': path.join(__dirname, '../../brand-b/src/components')
     }
 
     return config;

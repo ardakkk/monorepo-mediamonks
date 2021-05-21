@@ -6,6 +6,7 @@
   "author": "Ardak Tileu",
   "license": "MIT",
   "sideEffects": false,
+  "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -31,7 +32,6 @@
     "@mediamonks/scripts": "^1.2.2",
     "@types/react": "^17.0.4",
     "babel-plugin-macros": "^3.0.1",
-    "babel-plugin-module-resolver": "^4.1.0",
     "rollup": "^2.45.2",
     "typescript": "^4.2.4"
   },
@@ -46,6 +46,12 @@
   "dependencies": {
     "@babel/runtime": "^7.13.17",
     "@mediamonks/common": "^0.2.0"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
   },
   "scripty": {
     "modules": [

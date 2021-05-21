@@ -6,6 +6,7 @@
   "author": "Ardak Tileu",
   "license": "MIT",
   "sideEffects": false,
+  "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "typings": "lib/index.d.ts",
   "files": [
