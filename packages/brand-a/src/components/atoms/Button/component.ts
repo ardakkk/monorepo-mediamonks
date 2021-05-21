@@ -3,7 +3,7 @@ import { colors } from 'core';
 
 Button.defaultProps = {
   color: colors.variants.Text.White,
-  backgroundColor: colors.variants.Element.Black,
+  backgroundColor: 'red',
 };
 
 export { Button, ButtonProps };
