@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/brand-a@1.2.0...@mediamonks/brand-a@1.3.0) (2021-05-21)
+
+
+### Features
+
+* **brand-a:** change color ([f342cd0](https://github.com/ardakkk/monorepo-mediamonks/commit/f342cd05b026a23f9867076ed655697d58f738ec))
+
+
+
+
+
 # [1.2.0](https://github.com/ardakkk/monorepo-mediamonks/compare/@mediamonks/brand-a@1.1.1...@mediamonks/brand-a@1.2.0) (2021-05-17)
 
 

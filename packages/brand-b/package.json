@@ -1,6 +1,6 @@
 {
   "name": "@mediamonks/brand-b",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "description": "Brand-b package",
   "author": "Ardak Tileu",
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.17",
-    "@mediamonks/common": "^0.2.0"
+    "@mediamonks/common": "^0.2.1"
   },
   "scripty": {
     "modules": [
